@@ -1,9 +1,11 @@
-# custom-assistant-example-error-augmentation
-This assistant example is designed to explain student programming error messages.
+# custom-assistant-code-feedback-on-correct-submissions
 
-This assistant can be provided with custom teacher written explanations as well.
-It will first check if the student's error message matches with any of the errors for which a teacher written augment is available.
-If a match is found, it displays that explanation. If a match is not found, it requests the LLM to generate an explanation.
+This assistant example is designed to provide qualitative feedback on correct student submissions.
 
-Tweak the `systemPrompt` or `userPrompt` to change/edit/update custom explanations or if you'd prefer a certain style of explanation. 
-for eg. with or without code snippets, with or without potential fixes and/or misconceptions, etc.
+The idea is to provide more personalized feedback on student submissions, especially when its correct and there are ways to make the code:
+1. Less complex
+2. More efficient
+3. Adhere to best practices (code style, code readability, etc.)
+
+Tweak the `systemPrompt` or `userPrompt` to change/edit/update the guidelines or if you'd prefer a certain style of feedback. 
+for eg. with or without code snippets, more or less verbose, etc.

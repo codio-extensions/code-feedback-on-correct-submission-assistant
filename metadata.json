@@ -1,8 +1,8 @@
 {
-  "name": "Coach Custom Assistant - Custom Error Augmentation",
+  "name": "Custom Code Feedback Assistant",
   "type": "helper",
   "properties": {
-    "user_type": "all", 
+    "user_type": "learner", 
     "component": "all"
   }
 }
